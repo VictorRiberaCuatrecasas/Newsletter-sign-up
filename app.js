@@ -31,7 +31,7 @@ app.post("/", function(req, res) {
   let jsonData = JSON.stringify(data);
 
   // let options = {
-  //   url: "https://us4.api.mailchimp.com/3.0/lists/039c3f85fe",
+  //   url: "confidential info",
   //   method: "POST",
   //   headers: {
   //     Authorization: "confidential info"
