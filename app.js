@@ -30,14 +30,14 @@ app.post("/", function(req, res) {
   };
   let jsonData = JSON.stringify(data);
 
-  let options = {
-    url: "https://us4.api.mailchimp.com/3.0/lists/039c3f85fe",
-    method: "POST",
-    headers: {
-      Authorization: "victor1 294b571c5bbfe953bace4bfd67096040-us4"
-    },
-    body: jsonData
-  };
+  // let options = {
+  //   url: "https://us4.api.mailchimp.com/3.0/lists/039c3f85fe",
+  //   method: "POST",
+  //   headers: {
+  //     Authorization: "confidential info"
+  //   },
+  //   body: jsonData
+  // };
 
   request(options, function(error, response, body) {
     if (error) {
